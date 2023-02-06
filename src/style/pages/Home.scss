@@ -1,0 +1,47 @@
+.Home {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+
+  height: calc(100vh - 111px);
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  h2 {
+    margin-left: 3rem;
+    font-size: clamp(16px, 4vw, 36px);
+  }
+  h3 {
+    margin-left: 3rem;
+
+    font-size:clamp(16px, 4vw, 20px);
+  }
+
+  button {
+    margin-left: 3rem;
+
+    padding: 1rem 3rem;
+    background: rgb(1, 105, 242);
+
+    font-weight: 600;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    outline: none;
+
+    a {
+      color: black;
+      text-decoration: none;
+    }
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
