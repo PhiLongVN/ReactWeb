@@ -4,13 +4,16 @@
   background-size: cover;
   background-position: center top;
 
-  height: calc(100vh - 111px);
+  height: calc(100vh - 236px );
 
   display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
   gap: 1.5rem;
+
+  
+  
   h2 {
     margin-left: 3rem;
     font-size: clamp(16px, 4vw, 36px);
@@ -18,7 +21,7 @@
   h3 {
     margin-left: 3rem;
 
-    font-size:clamp(16px, 4vw, 20px);
+    font-size: clamp(16px, 4vw, 20px);
   }
 
   button {
@@ -26,7 +29,7 @@
 
     padding: 1rem 3rem;
     background: rgb(1, 105, 242);
-
+    
     font-weight: 600;
     text-align: center;
     border-radius: 30px;

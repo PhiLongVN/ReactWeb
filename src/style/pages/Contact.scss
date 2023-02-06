@@ -1,0 +1,54 @@
+.contact {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  height: calc(100vh - 236px);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+
+  .title {
+    display: block;
+    margin-top: -6rem;
+    margin-left: 2rem;
+    font-size: 1.3rem;
+  }
+
+  .title-email {
+    margin-top: 0.75rem;
+    margin-left: 2rem;
+    display: block;
+    font-size: 2rem;
+    font-style: italic;
+  }
+
+  .contact-form {
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    background: rgba(153, 205, 50, 0.351);
+
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+    input {
+      padding: 0.5rem 0.8rem;
+      border-radius: 20px;
+      border: none;
+      outline: none;
+    }
+
+    button {
+      padding: 0.5rem 0.8rem;
+      border-radius: 20px;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}

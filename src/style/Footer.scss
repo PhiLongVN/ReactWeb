@@ -2,11 +2,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   gap: 1rem;
-  
+
   width: 100%;
   padding: 1rem 2rem;
   background: rgba(0, 0, 0, 0.897);
 
   color: white;
+  .footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
 }
