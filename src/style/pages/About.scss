@@ -1,0 +1,18 @@
+.about {
+  text-align: center;
+  padding: 2rem 1rem;
+  height: calc(100vh - 236px);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h2 {
+    padding: 1rem;
+    font-size: 2rem;
+  }
+  p {
+    max-width: 70ch;
+  }
+}

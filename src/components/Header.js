@@ -24,7 +24,7 @@ function Header() {
       'header-menu' : 'header-menu mb'}>
         <Link to="/">Home</Link>
         <Link to="/Contact">Contact</Link>
-        <Link to="/Info">Info</Link>
+        <Link to="/Info">Menu</Link>
         <Link to="/About">About</Link>
       </div>
 
