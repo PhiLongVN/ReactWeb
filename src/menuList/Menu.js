@@ -10,6 +10,7 @@ function Menu() {
             <img src={val.image} alt="" />
             <span>{val.price}</span>
             <span>{val.name}</span>
+            <button>Order Now</button>
           </div>
         );
       })}

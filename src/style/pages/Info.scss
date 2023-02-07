@@ -32,6 +32,17 @@
       flex-direction: column;
       flex-grow: 1;
 
+      button {
+        padding: 0.5rem 1rem;
+        border-radius: 100px;
+        cursor: pointer;
+        border: none;
+        background: aquamarine;
+        &:hover {
+          background: burlywood;
+        }
+      }
+
       img {
         border-radius: 40px;
         width: 100%;
